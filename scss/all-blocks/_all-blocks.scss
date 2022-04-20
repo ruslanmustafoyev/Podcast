@@ -1,0 +1,118 @@
+@import "header-hero";
+@import "episodes";
+@import "topics";
+@import "acquantaince";
+@import "subscribe";
+@import "footer";
+.hero__bottom{
+  padding: 0%;
+ margin-top: 132px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.hero__bottom-left-brand{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  width: 400px;
+  font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.15em;
+color: #FFFFFF;
+}
+.point{
+ width: 4px;
+ height: 4px;
+ background-color: white;
+ border-radius: 50%;
+}
+
+.hero__bottom-left-title>h1{
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+font-size: 66px;
+line-height: 70px;
+width: 650px;
+margin-top: 19px;
+font-family: 'Poppins';
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.hero__bottom-left-title>p{
+  margin: 0;
+  padding: 0;
+  margin-top: 17px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  opacity: 0.7;
+  font-family: 'Poppins';
+  width: 545px;
+}
+.hero__bottom-left-button{
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  width: 342px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero__bottom-left-button>button:nth-child(1){
+  width: 166px;
+  height: 46px;
+  background-origin: padding-box;
+  border:none;
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  background: linear-gradient(265.37deg, #9224D6 -49.74%, #BD87DE 116.53%);
+}
+.hero__bottom-left-button>button:nth-child(2){
+  width: 168px;
+  height: 46px;
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  background:transparent;
+  border:1px solid white;
+}
+
+.hero__bottom-left-socialmedia>p{
+  margin: 0;
+  padding: 0;
+  margin-top: 63px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.13em;
+  color: #FFFFFF;
+  font-family: 'Poppins';
+}
+.hero__bottom-left-socialmedia>ul{
+  margin: 0;
+  padding: 0;
+  margin-top: 17px;
+  list-style: none;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

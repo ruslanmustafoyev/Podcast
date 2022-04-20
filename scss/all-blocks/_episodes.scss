@@ -1,0 +1,86 @@
+.container-card {
+  width: 1192px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  .card {
+      width: 32%;
+      margin-top: 20px;
+
+      .card-img {
+          width: 375px;
+          height: 280px;
+      }
+
+      .card-text-mike {
+          padding: 20px 0px;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.05em;
+          color: #000000;
+      }
+
+      .card-text-build {
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          letter-spacing: 0.02em;
+          color: #000000;
+
+      }
+
+      .card-text-lorem {
+          padding: 20px 0px;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.02em
+      }
+
+      .container-card-icon {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+
+          .card-icon {
+              width: 50%;
+              display: flex;
+              justify-content: center;
+
+              .card-polygon {
+                  position: relative;
+                  right: 20px;
+                  width: 21px;
+                  height: 21px;
+              }
+
+              .card-play {
+                  position: relative;
+                  right: 10px;
+                  font-weight: 500;
+                  font-size: 16px;
+                  line-height: 24px;
+                  letter-spacing: 0.02em;
+                  color: #9224D6;
+              }
+
+              .card-access {
+                  width: 21px;
+                  height: 21px;
+                  margin-right: 10px;
+              }
+
+              .card-min {
+                  font-size: 16px;
+                  line-height: 24px;
+                  letter-spacing: 0.02em;
+                  color: #000000;
+                  opacity: 0.6;
+              }
+          }
+      }
+
+
+  }
+
+}
